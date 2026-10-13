@@ -1,0 +1,40 @@
+
+# Node.js dependencies
+node_modules/
+
+# Build output
+/dist/
+/bundle/
+
+# Hardhat build artifacts and cache
+/artifacts/
+/cache/
+
+# TypeChain generated files
+/types/
+
+# Python virtual environments
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Hardhat coverage reports
+/coverage/
+
+# Gas snapshots
+/.gas-snapshot
+
+# Snapshot cheatcodes output
+/snapshots/
+
+# Operating system files
+.DS_Store
+Thumbs.db
